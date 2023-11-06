@@ -2,8 +2,8 @@
     <div class="section">
       <div class="container">
         <div class="columns is-centered">
-          <div class="column is-one-third custom-column">
-        <input type="color" v-model="selectedColor" @input="updateColorFromHex" />
+          <div class="column is-one-third">
+    <input type="color" v-model="selectedColor" @input="updateColorFromHex" style="width: 100%; height: 50px;"/>
         </div>
           <div class="column is-one-third">
             <div class="color-info">
