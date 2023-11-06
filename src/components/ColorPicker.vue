@@ -2,9 +2,9 @@
     <div class="section">
       <div class="container">
         <div class="columns is-centered">
-          <div class="column is-one-third">
-            <input type="color" v-model="selectedColor" @input="updateColorFromHex" style="width: 100%; height: 100%;" />
-          </div>
+          <div class="column is-one-third custom-column">
+        <input type="color" v-model="selectedColor" @input="updateColorFromHex" />
+        </div>
           <div class="column is-one-third">
             <div class="color-info">
               <div class="color-codes">
@@ -261,5 +261,9 @@
 }
 .field {
   margin-bottom: 1rem;
+}
+ .custom-column {
+   width: 100%;
+   height: 100px; /* Imposta l'altezza desiderata */
 }
 </style>
