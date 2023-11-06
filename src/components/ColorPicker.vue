@@ -262,8 +262,4 @@
 .field {
   margin-bottom: 1rem;
 }
- .custom-column {
-   width: 100%;
-   height: 100px; /* Imposta l'altezza desiderata */
-}
 </style>
