@@ -1,8 +1,8 @@
-# Password Generator App
+# Color Picker Vue App + Bulma
 ## Project Description
 This app allows you to select a color using the color picker and then copy the desired color value.
 
-![PColor Picker App](https://i.imgur.com/qY3tURk.png)
+![Color Picker App](https://i.imgur.com/qY3tURk.png)
 
 ## Project Setup
 To set up this project, run the following command to install dependencies:
