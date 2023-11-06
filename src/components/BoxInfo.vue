@@ -1,7 +1,7 @@
 <template>
       <div class="content">
         <h1>{{ title }}</h1>
-        <p>by matteosantoro.dev</p>
+        <p>Scegli il colore desiderato utilizzando il selettore e copia il valore di cui hai bisogno.</p>
     </div>
   </template>
   
